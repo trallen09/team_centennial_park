@@ -1,10 +1,10 @@
 # Team Centennial Project!
 
 ## Team Roles
-* Square - Thomas
-* Circle - Chris
-* Triangle - Shana
-* X - Adam
+* Square - Thomas - GitHub
+* Circle - Chris - SQL
+* Triangle - Shana - Machine Learning
+* X - Adam - Everything else
 
 ## Google Slide Presentation Link - Team Centennial Park
 
