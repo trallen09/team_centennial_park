@@ -1,4 +1,10 @@
-# Team JavaScript Crash Data
+# Team Centennial Project
+
+## Team Roles
+* Square - Thomas
+* Circle - Chris
+* Triangle - Shana
+* X - Adam
 
 ## Google Slide Presentation Link - Team Centennial Park
 
