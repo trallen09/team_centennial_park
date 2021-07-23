@@ -1,8 +1,8 @@
 # Team JavaScript Crash Data
 
-## Google Slide Presentation Link
+## Google Slide Presentation Link - Team Centennial Park
 
-### https://docs.google.com/presentation/d/1rCUgGdReLXpcnDJisHFbRMw03b5xDLH4zoAbk-zz0tE/edit?usp=sharing
+### https://docs.google.com/presentation/d/1OoIsgp5mlWcPvbk-57R-t8Uln5zaWwtiQtzcT7-NKdI/edit#slide=id.gb83a036475_0_69
 
 ## Link for the Dashboard Storyboard
 
