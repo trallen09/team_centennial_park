@@ -1,4 +1,4 @@
-# Team Centennial Project!!!
+# Team Centennial Project!
 
 ## Team Roles
 * Square - Thomas
