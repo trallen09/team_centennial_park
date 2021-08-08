@@ -14,6 +14,10 @@
 
 * https://docs.google.com/presentation/d/1og3aWNU96JpckU4NjLtIBuIgE-RvslwbF5jTrnYlfpo/edit#slide=id.ge7ee07d382_0_1
 
+#### Tableau Dashboard
+* [Tableau Public Dashboard] (https://public.tableau.com/views/TNHousingForecastandMap/TN_House_Forecast?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+* This an option for the user of final website to play around with the data.
+
 ### Week 1 for Machine Learning
 * Created basic plan for machine learning processing of the data.
 * Included different aspects that need to be considered during the process.
