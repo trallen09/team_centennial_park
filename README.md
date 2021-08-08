@@ -10,7 +10,7 @@
 * Lessons learned
 	* Properly format the date if the analysis is based on a time series.
 	* This conversion of the date to time delta improved the performance of the model. 
-![Time Delta](https://github.com/trallen09/team_centennial_park/blob/main/images/TimeDelta.png)
+![DeltaDate](https://github.com/trallen09/team_centennial_park/blob/main/images/DeltaDate2.png)
 
 
 
