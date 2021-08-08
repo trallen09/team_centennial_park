@@ -16,7 +16,7 @@
 
 #### Tableau Dashboard
 * [Tableau Public Dashboard](https://public.tableau.com/views/TNHousingForecastandMap/TN_House_Forecast?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
-* This an option for the user of final website to play around with the data.
+* This an option for the user of the final website to play around with the data.
 
 ### Week 1 for Machine Learning
 * Created basic plan for machine learning processing of the data.
