@@ -6,6 +6,14 @@
 * Triangle - Shana - Machine Learning
 * X - Adam - Everything else
 
+### Week 2
+* Lessons learned
+	* Properly format the date if the analysis is based on a time series.
+	* This conversion of the date to time delta improved the performance of the model. 
+![DeltaDate](https://github.com/trallen09/team_centennial_park/blob/main/images/DeltaDate2.png)
+
+* https://docs.google.com/presentation/d/1og3aWNU96JpckU4NjLtIBuIgE-RvslwbF5jTrnYlfpo/edit#slide=id.ge7ee07d382_0_1
+
 ### Week 1 for Machine Learning
 * Created basic plan for machine learning processing of the data.
 * Included different aspects that need to be considered during the process.
