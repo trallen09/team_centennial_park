@@ -23,7 +23,7 @@
 	* The historical data used did not appear to be seasonally affected.
 	* Proper formatting of the date is key to utilizing this data.
 
-* https://docs.google.com/presentation/d/1og3aWNU96JpckU4NjLtIBuIgE-RvslwbF5jTrnYlfpo/edit#slide=id.ge7ee07d382_0_1
+* https://docs.google.com/presentation/d/1OoIsgp5mlWcPvbk-57R-t8Uln5zaWwtiQtzcT7-NKdI/edit#slide=id.p
 
 #### Tableau Dashboard
 * [Tableau Public Dashboard](https://public.tableau.com/views/TNHousingForecastandMap/TN_House_Forecast?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
