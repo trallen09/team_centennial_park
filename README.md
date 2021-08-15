@@ -6,6 +6,8 @@
 * Triangle - Shana - Machine Learning
 * X - Adam - Everything else
 
+
+
 ### Week 2
 * Lessons learned
 	* Properly format the date if the analysis is based on a time series.
@@ -26,8 +28,9 @@
 * https://docs.google.com/presentation/d/1OoIsgp5mlWcPvbk-57R-t8Uln5zaWwtiQtzcT7-NKdI/edit#slide=id.p
 
 #### Tableau Dashboard
-* [Tableau Public Dashboard](https://public.tableau.com/views/TNHousingForecastandMap/TN_House_Forecast?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
-* This an option for the user of the final website to play around with the data.
+* These dashboards provide options for the user of the final website to play around with the data.
+* [Tableau Public Dashboard1](https://public.tableau.com/views/TNHousingForecastandMap/TN_House_Forecast?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+* [Tableau Public Dashboard2](https://public.tableau.com/views/TNCountyPrices/CountiesDash?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
 ### Week 1 for Machine Learning
 * Created basic plan for machine learning processing of the data.
