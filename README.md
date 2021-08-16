@@ -45,3 +45,53 @@ Data provided on Kaggle: https://www.kaggle.com/paultimothymooney/zillow-house-p
 ## Data Choice
 
 #### Team Centennial park chose data that useful to anyone looking to purchase a home in Tennessee. We will focusing the data to look specifically at this market but it could be used for other states. We will building a machine learning model to help predict the future prices of houses of varying sizes.
+
+
+
+
+### Data Cleaning & Database
+
+        a. Import data utilizing Pandas from 5 .csv files obtained from zillow.com
+
+        b. Using Jupyter Notebook, to name a few, we used the following:
+	- pd.concat
+	- df.stack
+	- df.set_index and reset_index
+	- df.rename
+	- pd.to_datetime
+	- df.to_csv
+	- df.loc
+	
+	c. Import data utilizing SQLite
+                i. Created 2 tables: "zillow_table1" & "zillow_table2"
+        d. sqlite was used as our database (zillow.db)
+                i. The database contains two tables that needed to be joined
+                ii. The sql query is as follows:
+		'''SELECT *
+		FROM zillow_table1
+		LEFT JOIN zillow_table2
+		ON zillow_table1.ID = zillow_table2.ID;'''
+	e. 
+
+
+
+
+### Machine Learning
+
+        a. Import data utilizing sqlite3
+	
+	b. Convert data to dataframe using Pandas
+
+        c. Using Jupyter Notebook, choose Machine Learning Model
+                i. We chose Linear Regression as our ML model because regression 
+		   is used to predict continuous variables. Since we are trying to 
+		   predict future or even past TN house prices, regression is needed.
+	
+	d. A function was created to take inputs from the webpage and run the predictions on the spot
+	
+	e. We have two features and one variable that can be changed by the user.
+		i. The two features are number of bedrooms and year
+		ii. The variable that will modify the dataframe going into the model is the city in TN
+		
+                   
+               
