@@ -6,7 +6,9 @@
 * Triangle - Shana - Machine Learning
 * X - Adam - Everything else
 
-
+### Week 3
+* Continued working on HTML, Flask, Google Slides, Tableau
+* Finalized the ML interaction with user and ML function
 
 ### Week 2
 * Lessons learned
