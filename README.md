@@ -1,4 +1,4 @@
-# Team Centennial Project!
+# Team Centennial Park Project: Zillow Pricing Predictor
 
 ## Team Roles
 * Square - Thomas - GitHub
@@ -27,7 +27,55 @@
 	* The historical data used did not appear to be seasonally affected.
 	* Proper formatting of the date is key to utilizing this data.
 
+## Google Slide Presentation Link
+
 * https://docs.google.com/presentation/d/1OoIsgp5mlWcPvbk-57R-t8Uln5zaWwtiQtzcT7-NKdI/edit#slide=id.p
+
+## Link for the Dashboard Storyboard
+
+* These dashboards provide options for the user of the final website to play around with the data.
+* [Tableau Public Dashboard1](https://public.tableau.com/views/TNHousingForecastandMap/TN_House_Forecast?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+* [Tableau Public Dashboard2](https://public.tableau.com/views/TNCountyPrices/CountiesDash?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+
+Database Description
+
+Data provided on Kaggle: https://www.kaggle.com/paultimothymooney/zillow-house-price-data?select=Sale_Prices_City.csv. This data is U.S. housing market compiled from zillow.com. Data included housing prices for Tennessee and was limited to city and number of bedrooms.
+
+Format
+
+The dataframe has 84 rows and 63 columns with the following variables:
+
+Bedrooms
+
+*Homes with 1-5 bedrooms were included in the database.
+
+RegionName
+
+*Name of the city the houses for sale were located.
+
+Date
+
+*Date of housing prices recorded in Zillow.
+
+Price
+
+*Housing price.
+
+DeltaDate
+
+*Difference in time from current date to housing sales price.
+
+## Data Choice
+
+Team Centennial Park chose house pricing in Tennessee because it is one of the most popular topics in Tennessee today. At one point or another everyone has thought about living in a home, currently lives in a home and wants to know what its worth, or wants to know what their future or current home will be worth. We at Team Centennial Park are here to solve some of your questions and help tell you where your dollar will go the farthest in Tennessee real estate investing. We are looking to help anyone in Tennessee looking for a house. 
+
+## Outline of Project
+
+## Machine Learning Model
+
+## Database Integration
+
+## Dashboard
 
 #### Tableau Dashboard
 * These dashboards provide options for the user of the final website to play around with the data.
@@ -41,6 +89,7 @@
 
 #### Dataset Description
 Data provided on Kaggle: https://www.kaggle.com/paultimothymooney/zillow-house-price-data?select=Sale_Prices_City.csv. This data is U.S. housing market compiled from zillow.com.   
+
 #### Format
 
 
