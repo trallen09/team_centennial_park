@@ -1,8 +1,96 @@
 <!DOCTYPE html>
 <head>
-    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>City Dashboard</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    /><link rel="stylesheet" href="static/css/stylesheet.css">
+    <!-- Style guide for page -->
+    <style>
+        .head1 {
+            font-size:40px;
+            color: #000000;
+            font-weight:bold;
+        }
+        .head2 {
+            font-size:17px;
+            margin-left:10px;
+            margin-bottom:15px;
+        }
+        body {
+            margin: 0 auto;
+            background-position:center;
+            background-size: contain;
+        }
+        .jumbotron {
+            background-image: url("static/images/flag.jpeg");
+            background-size: 100% 100%;
+            text-align: center;
+        }
+      
+        .menu {   
+            position: sticky;
+            top: 0;
+            background-color: #cc0000;
+            padding:10px 0px 10px 0px;
+            color:#FFFFFF;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        .menu a {
+            float: left;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .menu-log {
+            right: auto;
+            float: right;
+        }
+        footer {
+            width: 100%;
+            bottom: 10px;
+            background-color: #002D65;
+            color: #FFFFFF;
+            position: relative;
+            padding-top:20px;
+            padding-bottom:10px;
+            text-align:center;
+            font-size:20px;
+            font-weight:bold;
+        }
+        .body_sec {
+            margin-left:20px;
+            align-items: center;
+        }
+    </style>
 </head>
 <body>
+    <!-- Header Section -->
+    <header class = "jumbotron">
+
+    </header>
+        
+    <!-- Menu Navigation Bar -->
+    <div class="menu">
+        <a href="#home">Home</a>
+        <a href='predictor'>Housing Price Predictor</a>
+        <a href='map'>City Dashboard</a>
+        <a href="county">County Dashboard</a>
+        <a href="https://www.zillow.com/tn/">Link to Zillow</a>
+        <a href="https://www.google.com/maps/place/Tennessee/@35.7469228,-90.4700919,6z/data=!3m1!4b1!4m5!3m4!1s0x88614b239e97cf03:0x33e20c1a5819156!8m2!3d35.5174913!4d-86.5804473">Link to Map</a>
+        <div class="menu-log">
+        </div>
+    </div>
+
+    <!-- Tableau Dashboard -->
     <div class='tableauPlaceholder' id='viz1628642873261' style='position: relative'>
         <noscript><a href='#'><img 
         alt='TN_House_Forecast ' 
@@ -31,3 +119,11 @@
             vizElement.parentNode.insertBefore(scriptElement, vizElement);                
     </script>
 </body>
+
+<!-- Page footer -->
+<footer>
+    <p>Team Centennial Park<br>
+    <div class="head3"> Presented By: Thomas Allen, Adam Call, Chris Coelho, Shana Summers</div>
+</footer>
+
+</html>
