@@ -99,9 +99,6 @@ Identify data limitations
 * Included different aspects that need to be considered during the process.
 * Based on the dataset, different models and strategies will be tried.
 
-#### Dataset Description
-Data provided on Kaggle: https://www.kaggle.com/paultimothymooney/zillow-house-price-data?select=Sale_Prices_City.csv. This data is U.S. housing market compiled from zillow.com.   
-
 ## Challenges
 
 Outlier Data in Forest Hills. A 1 bedroom home has the same price as a 5 bedroom home for a certain number of years.
