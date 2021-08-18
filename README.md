@@ -71,6 +71,37 @@ Team Centennial Park chose house pricing in Tennessee because it is one of the m
 
 ## Outline of Project
 
+###### 1. Determine the scope of the project
+
+Selected Data:
+- "city_county"
+- "city_xhvi_1bedroom"
+- "city_xhvi_2bedroom"
+- "city_xhvi_3bedroom"
+- "city_xhvi_4bedroom"
+- "city_xhvi_5bedroomormore"
+- "sale_prices_city"
+- "TN_counties"
+- Zillow housing price data from 1996-2021 which included number of bedrooms, city, housing prices by date, and county.
+
+Determined topic of our Research
+- Housing data is relevant to almost every adult in the United States. Most people at one point in their life are interested in purchasing a home or want to know what their current home is worth, or what their home will be worth in the future.
+
+Selected the Questions We Wanted to Answer
+- What will a home I purchase in Tennessee be worth in the future?
+
+Identify data limitations
+- Housing pricing is limited before 2009.
+- Housing pricing is only from Zillow.
+- Data only includes number of bedrooms, location, price, and number of days from current date.
+
+###### 2. Review and Understand the Data
+- Determine the datatypes for each column
+- Filtered Data by State to Tennessee
+- Dropped unneeded columns: 'Unnamed', 'RegionID', 'StateName', 'SizeRank'
+
+
+
 ## Machine Learning Model
 
 ## Database Integration
@@ -97,7 +128,13 @@ Data provided on Kaggle: https://www.kaggle.com/paultimothymooney/zillow-house-p
 
 #### Team Centennial park chose data that useful to anyone looking to purchase a home in Tennessee. We will focusing the data to look specifically at this market but it could be used for other states. We will building a machine learning model to help predict the future prices of houses of varying sizes.
 
+## Challenges
 
+Outlier Data in Forest Hills. A 1 bedroom home has the same price as a 5 bedroom home for a certain number of years.
+
+Dataset only included Zillow housing prices which may have not been complete.
+
+Model was determined on 5 variable. There are other variables that could effect housing prices including square footage, land size, and other common housing features.
 
 
 ### Data Cleaning & Database
