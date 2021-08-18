@@ -31,8 +31,8 @@ def TN_House_Predictor(City,Bedrooms,Year):
 
 
 @app.route('/')
-# def home():
-#     return render_template('home.html')
+def home():
+    return render_template('home1.html')
 
 @app.route('/predictor')
 def predictor():
@@ -48,9 +48,9 @@ def map():
     return render_template('/map.html')
 
 
-@app.route('/county_price')
+@app.route('/county')
 def county_price():
-    return render_template('/county_price')
+    return render_template('/county.html')
 
 
 # @app.errorhandler(404)
@@ -67,7 +67,7 @@ def handle_form():
         prediction = TN_House_Predictor(city, beds, year)
         # use your pickled model with the user input
         # to generate a new prediction
-        return str(prediction) 
+        return f'${float(prediction[0]):,.2f}' 
 
 
 if __name__ == '__main__':
