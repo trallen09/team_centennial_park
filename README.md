@@ -75,8 +75,27 @@ Identify data limitations
 - Data filtered by states.
 - Identify number of null values by region and remove.
 
-###### 3. Data Cleaning
+###### 3. Data Cleaning / Database
 - Cleaning was completed in Jupyter Notebook. All unnecessary and unneeded data stated above was removed through python coding.
+- Import data utilizing Pandas from 5 .csv files obtained from zillow.com
+	a. Using Jupyter Notebook, to name a few, we used the following:
+		- pd.concat
+		- df.stack
+		- df.set_index and reset_index
+		- df.rename
+		- pd.to_datetime
+		- df.to_csv
+		- df.loc
+	
+	b. Import data utilizing SQLite
+                i. Created 2 tables: "zillow_table1" & "zillow_table2"
+        c. sqlite was used as our database (zillow.db)
+                i. The database contains two tables that needed to be joined
+                ii. The sql query is as follows:
+		'''SELECT *
+		FROM zillow_table1
+		LEFT JOIN zillow_table2
+		ON zillow_table1.ID = zillow_table2.ID;'''
 
 ## Machine Learning Model
 - Import data utilizing sqlite3
