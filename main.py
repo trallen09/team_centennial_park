@@ -73,7 +73,7 @@ def handle_form():
 if __name__ == '__main__':
 
     # Run this when running on LOCAL server...
-    app.run(debug=True)
+    # app.run(debug=True)
 
     # ...OR run this when PRODUCTION server.
-    # app.run(debug=False)
+    app.run(debug=False)
