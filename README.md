@@ -120,7 +120,7 @@ Outlier Data in Forest Hills. A 1 bedroom home has the same price as a 5 bedroom
 
 Dataset only included Zillow housing prices which may have not been complete.
 
-Model was determined on 5 variable. There are other variables that could effect housing prices including square footage, land size, and other common housing features.
+Model was determined on 2 features and a city that changed the data going into the model. There are other variables that could affect housing prices including square footage, land size, and other common housing features.
 
 
 
