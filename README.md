@@ -100,7 +100,7 @@ Identify data limitations
 ## Machine Learning Model
 - Import data utilizing sqlite3
 - Convert data to dataframe using Pandas
-- Using Jupyter Notebook, choose Machine Learning Model
+- Using Jupyter Notebook
 	- We chose Linear Regression as our ML model because regression is used to predict continuous variables. Since we are trying to predict future or even past TN house prices, regression is needed.
 	
 - A function was created to take inputs from the webpage and run the predictions on the spot
@@ -113,10 +113,6 @@ Identify data limitations
 * [Tableau Public Dashboard1](https://public.tableau.com/views/TNHousingForecastandMap/TN_House_Forecast?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 * [Tableau Public Dashboard2](https://public.tableau.com/views/TNCountyPrices/CountiesDash?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
-### Week 1 for Machine Learning
-* Created basic plan for machine learning processing of the data.
-* Included different aspects that need to be considered during the process.
-* Based on the dataset, different models and strategies will be tried.
 
 ## Challenges
 
